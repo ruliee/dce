@@ -1,5 +1,5 @@
-package units;
-
+package crawler.src.units;
+//platano con yuca... tu sabe probando si esto funciona
 public class Creature {
 	int x,y,z,hp,
 	stamina,strength,dexterity,
