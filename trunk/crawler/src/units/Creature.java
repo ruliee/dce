@@ -6,6 +6,7 @@ public class Creature {
 	constitution,inteligence,
 	speedOfMind,willpower,defenceMod;
 	String descripcion;
+
 	public int getDefenceMod() {
 		return defenceMod;
 	}
@@ -115,5 +116,11 @@ public class Creature {
 
 	public String getDescripcion(){
 		return descripcion;
+	}
+
+	public hacerAlgo(char presionada){
+	/**
+	TODO:Hacer que haga algo cuando se presione algo.
+	*/
 	}
 }
