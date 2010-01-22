@@ -5,7 +5,7 @@ public class Creature {
 	stamina,strength,dexterity,
 	constitution,inteligence,
 	speedOfMind,willpower,defenceMod;
-	
+	String descripcion;
 	public int getDefenceMod() {
 		return defenceMod;
 	}
@@ -113,5 +113,7 @@ public class Creature {
 		this.willpower = willpower;
 	}
 
-
+	public String getDescripcion(){
+		return descripcion;
+	}
 }
